@@ -8,4 +8,5 @@ ShopifyApp.configure do |config|
   config.embedded_app = true
   config.after_authenticate_job = false
   config.session_repository = Shop
+  config.api_version = '2019-04'
 end
