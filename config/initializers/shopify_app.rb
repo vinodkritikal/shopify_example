@@ -1,4 +1,3 @@
-require_relative '../../app/models/shop'
 ShopifyApp.configure do |config|
   config.application_name = "My Shopify App"
   config.api_key = "4d1272dc552f2f6910ff670a377ff434"
@@ -9,5 +8,5 @@ ShopifyApp.configure do |config|
   config.embedded_app = true
   config.after_authenticate_job = false
   config.api_version = '2019-04'
-  config.session_repository = ::Shop
+  config.session_repository = Shop
 end
