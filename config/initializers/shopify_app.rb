@@ -1,3 +1,4 @@
+require_relative '../../app/models/shop'
 ShopifyApp.configure do |config|
   config.application_name = "My Shopify App"
   config.api_key = "4d1272dc552f2f6910ff670a377ff434"

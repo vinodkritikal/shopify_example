@@ -4,9 +4,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.7'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'shopify_app'
+gem 'shopify_app', '~> 13.3'
 
-gem 'shopify_api'
 
 gem 'rails', '~> 5.2.4', '>= 5.2.4.2'
 
